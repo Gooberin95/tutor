@@ -1,12 +1,11 @@
-import Services from './Services.js';
 import React from 'react';
 import microsoftLogo from './mavisOne.jpg';
-import azureinfoOne from './mavisTwo.js';
-import azureinfoTwo from './mavisThree.js';
+import azureinfoOne from './mavisTwo.jpg';
+import azureinfoTwo from './mavisThree.jpg';
 import testpic from './mavisThree.jpg';
-import azure from './mavisFour.png';
+import azure from './mavisFour.jpg';
 import profilePic from './mavisFive.jpg'
-import logoTwo from './mavisSix.png';
+import logoTwo from './mavisSix.jpg';
 import seattlePage from './mavisOne.jpg';
 import Image from 'react-bootstrap/Image';
 import personalSummaryOne from './personalSummaryOne.js';
@@ -87,7 +86,6 @@ const Home = () => {
 			            
 			  		  <div style={parallaxStyleThree} className="parallax"></div>
 			  			<Container fluid id="section3" >
-			  		  <Services/>
 			  				</Container>
 			  		  <Container fluid style={{height: "50px"}}>
 			  		  </Container>
