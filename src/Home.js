@@ -2,7 +2,7 @@ import React from 'react';
 import microsoftLogo from './mavisOne.jpg';
 import azureinfoOne from './mavisTwo.jpg';
 import azureinfoTwo from './mavisThree.jpg';
-import testpic from './mavisThree.jpg';
+import coolPattern from './coolPattern.jpg';
 import azure from './mavisFour.jpg';
 import profilePic from './mavisFive.jpg'
 import logoTwo from './mavisSix.jpg';
@@ -27,7 +27,7 @@ const Home = () => {
 			  		    };
 		const parallaxStyleTwo = {
 					
-					      backgroundImage: `url(${eventPic})`,
+					      backgroundImage: `url(${coolPattern})`,
 					      minHeight: '500px',
 					      backgroundAttachment: 'fixed',
 					      backgroundPosition: 'center',
@@ -37,7 +37,7 @@ const Home = () => {
 
 			 const parallaxStyleThree = {
 				 		
-				 			 backgroundImage: `url(${testpic})`,
+				 			 backgroundImage: `url(${eventPic})`,
 				 		      minHeight: '500px',
 				 		      backgroundAttachment: 'fixed',
 				 		      backgroundPosition: 'center',
