@@ -6,19 +6,19 @@ import testpic from './mavisThree.jpg';
 import azure from './mavisFour.jpg';
 import profilePic from './mavisFive.jpg'
 import logoTwo from './mavisSix.jpg';
-import seattlePage from './mavisOne.jpg';
+import eventPic from './eventPic.jpg';
 import Image from 'react-bootstrap/Image';
 import personalSummaryOne from './personalSummaryOne.js';
 import personalSummaryTwo from './personalSummaryTwo.js';
 import personalSummaryThree from './personalSummaryThree.js';
-import photoTwo from './mavisSeven.jpg';
+import fashionOne from './fashionOne.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const Home = () => {
 		  const parallaxStyle = {
-			  		      backgroundImage: `url(${photoTwo})`,
+			  		      backgroundImage: `url(${fashionOne})`,
 			  		      minHeight: '500px',
 			  		      backgroundAttachment: 'fixed',
 			  		      backgroundPosition: 'center',
@@ -27,7 +27,7 @@ const Home = () => {
 			  		    };
 		const parallaxStyleTwo = {
 					
-					      backgroundImage: `url(${seattlePage})`,
+					      backgroundImage: `url(${eventPic})`,
 					      minHeight: '500px',
 					      backgroundAttachment: 'fixed',
 					      backgroundPosition: 'center',
