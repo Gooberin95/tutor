@@ -15,6 +15,7 @@ import Orange from './Orange';
 
 
 const Home = () => {
+
 		const parallaxStyleTwo = {
 					
 					      backgroundImage: `url(${eventPic})`,
@@ -23,7 +24,6 @@ const Home = () => {
 					      backgroundPosition: 'center',
 					      backgroundRepeat: 'no-repeat',
 					      backgroundSize: 'cover',
-
 					      borderTop: "solid",
 					      borderBottom: "solid"
 					    };
@@ -35,10 +35,10 @@ const Home = () => {
 				 		      backgroundAttachment: 'fixed',
 				 		      backgroundPosition: 'center',
 				 		      backgroundRepeat: 'no-repeat',
-				 		      backgroundSize: 'cover',
-				                                    
+				 		      backgroundSize: 'cover',                         
 					      borderTop: "solid",
-					      borderBottom: "solid"
+					      borderBottom: "solid",
+				 		marginTop: "200px"
 				
 				 		    };
 
@@ -52,7 +52,7 @@ const Home = () => {
 			  		  	<Row>
 			  		  	<Col className="d-flex justify-content-center align-items-center" >
 			  		  		<Col style={{marginLeft: "50px"}}>
-			  		  	       <Image src={mavisMagazine} style={{borderRadius: "10px",width: "75%"}}/>
+			  		  	       <h3 style={{borderRadius: "10px",width: "75%"}}>{personalSummaryOne}</h3>
 			  		  </Col> 
 			  		  <Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
 			  				<Image src={guyMagazine} style={{borderRadius: "10px",width: "75%"}}/>
@@ -65,16 +65,17 @@ const Home = () => {
 			   <h1 style={{textDecoration: 'underline', paddingLeft: "46%",marginTop:"75px"}}>About</h1>
 	<Container fluid id="section1" style={{marginTop: "95px", marginBottom: "75px"}}>
 			  		  	<Row>
-			  		 	<Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
+			  		  		<Col style={{height: "500px"}} className="d-flex justify-content-evenly align-items-center">
+			                                         
+			  		  	       <Image src={mavisMagazine} style={{borderRadius: "10px", width: "75%",height: "800px"}}/>
+			  		  </Col>
+			  
+			                 	
+			                 	<Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
 			  				<h3>{personalSummaryOne}</h3>
 
 			  		  	</Col>
-			  		  	<Col className="d-flex justify-content-center align-items-center" >
-			  		  		<Col>
-			                                         
-			  		  	       <p>{personalSummaryThree}</p>
-			  		  </Col>
-			  		  	</Col>
+			  		  	
 			  		  	</Row>
 			  			</Container>
 			  		   	
