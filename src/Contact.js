@@ -11,9 +11,8 @@ function Contact() {
 
 	 const Shadow = {
 	  background: `url(${formBackground})`,
-		 backgroundSize: "cover",
+	  backgroundSize: "cover",
 	  width: "500px",
-	  borderRadius: "8px",
 	  boxShadow:" 20px 20px 50px 15px grey",
 
 	  marginLeft: "200px",
