@@ -2,7 +2,6 @@ import React from 'react';
 import coolPattern from './coolPattern.jpg';
 import eventPic from './eventPic.jpg';
 import personalSummaryOne from './personalSummaryOne.js';
-import personalSummaryTwo from './personalSummaryTwo.js';
 import personalSummaryThree from './personalSummaryThree.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
