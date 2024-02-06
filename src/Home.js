@@ -3,7 +3,6 @@ import Contact from './Contact.js';
 import coolPattern from './coolPattern.jpg';
 import eventPic from './eventPic.jpg';
 import personalSummaryOne from './personalSummaryOne.js';
-import personalSummaryThree from './personalSummaryThree.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -47,7 +46,7 @@ const Home = () => {
 		  return (
 			  		
 			  		      <div>
-			  <h1 style={{textDecoration: 'underline', paddingLeft: "35%",marginTop:"75px"}}>Featured in Seattle Homes Magazine</h1>
+			  <h1 style={{textDecoration: 'underline', paddingLeft: "35%",marginTop:"75px",paddingBottom: "100px"}}>Featured in Seattle Homes Magazine</h1>
 			      <Container  id="section2" fluid style={{marginTop: "75px", marginBottom: "75px"}}>
 			  		  	<Row>
 			  		  	<Col className="d-flex justify-content-center align-items-center" >
@@ -62,7 +61,7 @@ const Home = () => {
 			  			</Container>
 
 			  		  <div style={parallaxStyleTwo} className="parallax" id="section2"></div>
-			   <h1 style={{textDecoration: 'underline', paddingLeft: "46%",marginTop:"75px"}}>About</h1>
+			   <h1 style={{textDecoration: 'underline', paddingLeft: "1300px",marginTop:"75px"}}>About</h1>
 	<Container fluid id="section1" style={{marginTop: "95px", marginBottom: "75px"}}>
 			  		  	<Row>
 			  		  		<Col style={{height: "500px"}} className="d-flex justify-content-evenly align-items-center">
