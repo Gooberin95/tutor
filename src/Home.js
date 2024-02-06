@@ -15,6 +15,8 @@ import fashionOne from './fashionOne.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Hero from './Hero.js';
+
 
 const Home = () => {
 		  const parallaxStyle = {
@@ -50,7 +52,6 @@ const Home = () => {
 		  return (
 			  		
 			  		      <div>
-
 			  		        <div style={parallaxStyle} className="parallax" ></div>
 			  				<Container fluid id="section1">
 			  		  	<Row>
