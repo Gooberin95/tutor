@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 import mavisMagazine from './mavisMagazine.jpg';
 import guyMagazine from './guyMagazine.jpg';
 import Image from 'react-bootstrap/Image';
-
+import Orange from './Orange';
 
 
 
@@ -23,6 +23,9 @@ const Home = () => {
 					      backgroundPosition: 'center',
 					      backgroundRepeat: 'no-repeat',
 					      backgroundSize: 'cover',
+
+					      borderTop: "solid",
+					      borderBottom: "solid"
 					    };
 
 			 const parallaxStyleThree = {
@@ -33,6 +36,10 @@ const Home = () => {
 				 		      backgroundPosition: 'center',
 				 		      backgroundRepeat: 'no-repeat',
 				 		      backgroundSize: 'cover',
+				                                    
+					      borderTop: "solid",
+					      borderBottom: "solid"
+				
 				 		    };
 
 
@@ -84,7 +91,13 @@ const Home = () => {
 			  				</Col>
 			  			</Row>
 			  				</Container>
-			  		
+			  <Container>
+			  <Row>
+			  <Col style={{paddingLeft: "250px",paddingRight: "250px", marginTop: "250px", marginBottom: "250px"}}>
+			  <Orange/>
+			  </Col>
+			  </Row>
+			  </Container>
 			  		      </div>
 			  		
 			  		    );
