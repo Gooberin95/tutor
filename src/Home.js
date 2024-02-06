@@ -7,8 +7,9 @@ import personalSummaryThree from './personalSummaryThree.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
-
+import mavisMagazine from './mavisMagazine.jpg';
+import guyMagazine from './guyMagazine.jpg';
+import Image from 'react-bootstrap/Image';
 const Home = () => {
 		const parallaxStyleTwo = {
 					
@@ -53,11 +54,11 @@ const Home = () => {
 			  		 			<Container  id="section2" fluid style={{marginTop: "75px", marginBottom: "75px"}}>
 			  		  	<Row>
 			  		  	<Col className="d-flex justify-content-center align-items-center" >
-			  		  		<Col>
-			  		  	       <h5>{personalSummaryThree}</h5>
+			  		  		<Col style={{marginLeft: "50px"}}>
+			  		  	       <Image src={mavisMagazine} style={{borderRadius: "10px",width: "75%"}}/>
 			  		  </Col> 
 			  		  <Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
-			  				<h3>{personalSummaryTwo}</h3>
+			  				<Image src={guyMagazine} style={{borderRadius: "10px",width: "75%"}}/>
 			  		  	</Col>
 			  		  	</Col>
 			  		  	</Row>
