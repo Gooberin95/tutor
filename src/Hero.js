@@ -1,4 +1,5 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import photographerImage from './heroImage.jpg';
 
@@ -31,7 +32,6 @@ const Hero = () => {
 	   };
 
   const overlayTextStyle = {
-	      backgroundColor: 'rgba(0, 0, 0, 0.4)',
 	      color: 'white',
 	      fontWeight: 'bold',
 	      borderRadius: '11px',
@@ -57,7 +57,9 @@ return (
 <div style={containerStyle}>
 	      <div style={backgroundImageStyle}></div>
 	      <div style={overlayTextStyle}>
+	               <FontAwesomeIcon icon={faCalendarDays} size="lg" style={{ color: "#FFD43B" }} />  
 	        <h1 style={{ ...headingStyle, opacity: fadeIn ? 1 : 0 }}>
+
 	          Event planning and Fashion Consulting
         </h1>
 	        <h4
