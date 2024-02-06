@@ -10,6 +10,10 @@ import Col from 'react-bootstrap/Col';
 import mavisMagazine from './mavisMagazine.jpg';
 import guyMagazine from './guyMagazine.jpg';
 import Image from 'react-bootstrap/Image';
+
+
+
+
 const Home = () => {
 		const parallaxStyleTwo = {
 					
@@ -36,22 +40,8 @@ const Home = () => {
 		  return (
 			  		
 			  		      <div>
-			  				<Container fluid id="section1" style={{marginTop: "95px", marginBottom: "75px"}}>
-			  		  	<Row>
-			  		 	<Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
-			  				<h3>{personalSummaryOne}</h3>
-
-			  		  	</Col>
-			  		  	<Col className="d-flex justify-content-center align-items-center" >
-			  		  		<Col>
-			  		  	       <p>{personalSummaryThree}</p>
-			  		  </Col>
-			  		  	</Col>
-			  		  	</Row>
-			  			</Container>
-			  		   	
-			  		  <div style={parallaxStyleTwo} className="parallax" id="section2"></div>
-			  		 			<Container  id="section2" fluid style={{marginTop: "75px", marginBottom: "75px"}}>
+			  <h1 style={{textDecoration: 'underline', paddingLeft: "35%",marginTop:"75px"}}>Featured in Seattle Homes Magazine</h1>
+			      <Container  id="section2" fluid style={{marginTop: "75px", marginBottom: "75px"}}>
 			  		  	<Row>
 			  		  	<Col className="d-flex justify-content-center align-items-center" >
 			  		  		<Col style={{marginLeft: "50px"}}>
@@ -63,6 +53,25 @@ const Home = () => {
 			  		  	</Col>
 			  		  	</Row>
 			  			</Container>
+
+			  		  <div style={parallaxStyleTwo} className="parallax" id="section2"></div>
+			   <h1 style={{textDecoration: 'underline', paddingLeft: "46%",marginTop:"75px"}}>About</h1>
+	<Container fluid id="section1" style={{marginTop: "95px", marginBottom: "75px"}}>
+			  		  	<Row>
+			  		 	<Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
+			  				<h3>{personalSummaryOne}</h3>
+
+			  		  	</Col>
+			  		  	<Col className="d-flex justify-content-center align-items-center" >
+			  		  		<Col>
+			                                         
+			  		  	       <p>{personalSummaryThree}</p>
+			  		  </Col>
+			  		  	</Col>
+			  		  	</Row>
+			  			</Container>
+			  		   	
+
 			            
 			  		  <div style={parallaxStyleThree} className="parallax"></div>
 			  			<Container fluid id="section3" style={{marginTop: "75px"}}>
