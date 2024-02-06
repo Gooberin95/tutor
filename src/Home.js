@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Contact.js';
 import coolPattern from './coolPattern.jpg';
 import eventPic from './eventPic.jpg';
 import personalSummaryOne from './personalSummaryOne.js';
@@ -70,7 +71,7 @@ const Home = () => {
 			  					<h3>{personalSummaryOne}</h3>
 			  				</Col>
 			  				<Col>
-			  					<h5>{personalSummaryThree}</h5>
+			  <Contact/>
 			  				</Col>
 			  			</Row>
 			  				</Container>
