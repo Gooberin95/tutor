@@ -45,10 +45,10 @@ function Contact() {
 
 		    return (
 			    		            <>
-			    		                <Container style={{ height: "500px" }} >
+			    		                <Container style={{ height: "500px",borderRadius: "8px",border: "solid #FFCC99",backgroundColor: "#FFCC99" }} >
 			    		                    <Row>
 			    		                        <Col style={{ paddingRight: "20px" }}>
-			    		                            <h1 style={{ paddingLeft: '500px', textDecoration: "underline" }}>Contact form</h1>
+			    		                            <h1 style={{ paddingLeft: '520px', textDecoration: "underline" }}>Contact form</h1>
 			    		                            <Form ref={form} onSubmit={sendEmail} noValidate validated={validated}>
 			    		                                <Form.Group className="mb-3" controlId="formGroupEmail">
 			    		                                    <Form.Label>Email address</Form.Label>
@@ -66,7 +66,7 @@ function Contact() {
 			    		                                    <Form.Control.Feedback type="invalid">Please enter your message.</Form.Control.Feedback>
 			    		                                </Form.Group>
 			    		                                <Form.Group className="mb-3" controlId="formGroupSubmit">
-			    		                                    <Button variant="primary" type="submit" value="Send">
+			    		                                    <Button variant="secondary" style={{marginLeft: "600px"}} type="submit" value="Send">
 			    		                                        Submit
 			    		                                    </Button>
 			    		                                </Form.Group>
