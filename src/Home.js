@@ -8,7 +8,7 @@ import mavisMagazine from './mavisMagazine.jpg';
 import guyMagazine from './guyMagazine.jpg';
 import Image from 'react-bootstrap/Image';
 import Orange from './Orange';
-
+import personalSummaryTwo from './personalSummaryTwo.js';
 
 
 const Home = () => {
@@ -46,7 +46,7 @@ const Home = () => {
 			  		  	<Row>
 			  		  	<Col className="d-flex justify-content-center align-items-center" >
 			  		  		<Col style={{marginLeft: "50px"}}>
-			  		  	       <p style={{borderRadius: "10px",width: "75%"}}>{personalSummaryOne}</p>
+			  		  	       <p style={{borderRadius: "10px",width: "75%"}}>{personalSummaryTwo}</p>
 			  		  </Col> 
 			  		  <Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
 			  				<Image src={guyMagazine} style={{borderRadius: "10px",width: "75%"}}/>
