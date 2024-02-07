@@ -59,14 +59,10 @@ const Home = () => {
 			  		  <div style={parallaxStyleTwo} className="parallax" id="section2"></div>
 			   <h1 style={{textDecoration: 'underline', paddingLeft: "1300px",marginTop:"75px",fontFamily: "Lucidia Handwriting"}}>About</h1>
 	<Container fluid id="section1" style={{marginTop: "95px", marginBottom: "75px"}}>
-			  		  	<Row>
-
-			  		  		<Col style={{height: "500px"}} className="d-flex justify-content-evenly align-items-center">
-			  		  </Col>
-			  
-			                 	
+			  		  	<Row>                	
 			                 	<Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
-
+			  <Orange/>
+						                	
 			  		  	</Col>
 			  		  	
 			  		  	</Row>
@@ -79,7 +75,6 @@ const Home = () => {
 			  <Row>
 
 			  <Col style={{paddingLeft: "250px",paddingRight: "250px", marginTop: "250px", marginBottom: "250px"}}>
-			  <Orange/>
 			  </Col>
 			  </Row>
 			  </Container>
