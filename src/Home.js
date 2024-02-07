@@ -1,6 +1,5 @@
 import React from 'react';
 import Contact from './Contact.js';
-import personalSummaryOne from './personalSummaryOne.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -8,7 +7,6 @@ import mavisMagazine from './mavisMagazine.jpg';
 import guyMagazine from './guyMagazine.jpg';
 import Image from 'react-bootstrap/Image';
 import Orange from './Orange';
-import personalSummaryTwo from './personalSummaryTwo.js';
 
 
 const Home = () => {
@@ -68,7 +66,6 @@ const Home = () => {
 			  
 			                 	
 			                 	<Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
-			  				<p>{personalSummaryOne}</p>
 
 			  		  	</Col>
 			  		  	
