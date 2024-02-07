@@ -16,9 +16,9 @@ import Orange from './Orange';
 const Home = () => {
 
 		const parallaxStyleTwo = {
+					      backgroundColor: ' #FFCC99',
 					
-					      backgroundImage: `url(${eventPic})`,
-					      minHeight: '500px',
+					      minHeight: '25px',
 					      backgroundAttachment: 'fixed',
 					      backgroundPosition: 'center',
 					      backgroundRepeat: 'no-repeat',
@@ -28,9 +28,8 @@ const Home = () => {
 					    };
 
 			 const parallaxStyleThree = {
-				 		
-				 			 backgroundImage: `url(${coolPattern})`,
-				 		      minHeight: '500px',
+				 			backgroundColor: "#FFCC99",	
+				 		      minHeight: '25px',
 				 		      backgroundAttachment: 'fixed',
 				 		      backgroundPosition: 'center',
 				 		      backgroundRepeat: 'no-repeat',
@@ -81,23 +80,25 @@ const Home = () => {
 
 			            
 			  		  <div style={parallaxStyleThree} className="parallax"></div>
-			  			<Container fluid id="section3" style={{marginTop: "75px"}}>
+			  <Container>
+			  <Row>
+
+			  <Col style={{paddingLeft: "250px",paddingRight: "250px", marginTop: "250px", marginBottom: "250px"}}>
+			  <Orange/>
+			  </Col>
+			  </Row>
+			  </Container>
+			                        <Container fluid id="section3" style={{marginTop: "75px"}}>
 			  			<Row>
 			  				<Col>
-			  					<h3>{personalSummaryOne}</h3>
+			  					<h3>Fill out the contact form and we will get back to you as soon as possible!</h3>
 			  				</Col>
 			  				<Col>
 			  <Contact/>
 			  				</Col>
 			  			</Row>
 			  				</Container>
-			  <Container>
-			  <Row>
-			  <Col style={{paddingLeft: "250px",paddingRight: "250px", marginTop: "250px", marginBottom: "250px"}}>
-			  <Orange/>
-			  </Col>
-			  </Row>
-			  </Container>
+
 			  		      </div>
 			  		
 			  		    );

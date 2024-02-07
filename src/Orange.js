@@ -3,8 +3,8 @@ import testpic from './testpic.jpg'; // Importing the image
 
 function Orange() {
 	  return (
-		  
-		      <Carousel >
+		 	<>
+		      <Carousel>
 		        <Carousel.Item>
 		          <img
 		            className="d-block w-100"
@@ -40,6 +40,7 @@ function Orange() {
 		          </Carousel.Caption>
 		        </Carousel.Item>
 		      </Carousel>
+		  </>
 		    );
 }
 
