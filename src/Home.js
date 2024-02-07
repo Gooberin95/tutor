@@ -1,7 +1,5 @@
 import React from 'react';
 import Contact from './Contact.js';
-import coolPattern from './coolPattern.jpg';
-import eventPic from './eventPic.jpg';
 import personalSummaryOne from './personalSummaryOne.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -16,41 +14,37 @@ import Orange from './Orange';
 const Home = () => {
 
 		const parallaxStyleTwo = {
-					      backgroundColor: ' #FFCC99',
-					
-					      minHeight: '25px',
+					      backgroundColor: ' #FFCC99',	
+					      minHeight: '10px',
 					      backgroundAttachment: 'fixed',
 					      backgroundPosition: 'center',
 					      backgroundRepeat: 'no-repeat',
 					      backgroundSize: 'cover',
-					      borderTop: "solid",
-					      borderBottom: "solid"
+					      border: "solid #FFCC99"
 					    };
 
 			 const parallaxStyleThree = {
 				 			backgroundColor: "#FFCC99",	
-				 		      minHeight: '25px',
+				 		      minHeight: '10px',
 				 		      backgroundAttachment: 'fixed',
 				 		      backgroundPosition: 'center',
 				 		      backgroundRepeat: 'no-repeat',
 				 		      backgroundSize: 'cover',                         
-					      borderTop: "solid",
-					      borderBottom: "solid",
-				 		marginTop: "200px"
+				 		marginTop: "200px",
+				 		border: "solid #FFCC99"
 				
 				 		    };
-
 
 
 		  return (
 			  		
 			  		      <div>
-			  <h1 style={{textDecoration: 'underline', paddingLeft: "35%",marginTop:"75px",paddingBottom: "100px"}}>Featured in Seattle Homes Magazine</h1>
-			      <Container  id="section2" fluid style={{marginTop: "75px", marginBottom: "75px"}}>
+			  <h1 style={{textDecoration: 'underline', paddingLeft: "35%",fontFamily:"Lucidia Handwriting",  color: "black",marginTop:"75px",paddingBottom: "200px"}}>Featured in Seattle Homes Magazine</h1>
+			      <Container  id="section2" fluid style={{marginTop: "75px", marginBottom: "75px",height: "800px"}}>
 			  		  	<Row>
 			  		  	<Col className="d-flex justify-content-center align-items-center" >
 			  		  		<Col style={{marginLeft: "50px"}}>
-			  		  	       <h3 style={{borderRadius: "10px",width: "75%"}}>{personalSummaryOne}</h3>
+			  		  	       <p style={{borderRadius: "10px",width: "75%"}}>{personalSummaryOne}</p>
 			  		  </Col> 
 			  		  <Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
 			  				<Image src={guyMagazine} style={{borderRadius: "10px",width: "75%"}}/>
@@ -60,7 +54,7 @@ const Home = () => {
 			  			</Container>
 
 			  		  <div style={parallaxStyleTwo} className="parallax" id="section2"></div>
-			   <h1 style={{textDecoration: 'underline', paddingLeft: "1300px",marginTop:"75px"}}>About</h1>
+			   <h1 style={{textDecoration: 'underline', paddingLeft: "1300px",marginTop:"75px",fontFamily: "Lucidia Handwriting"}}>About</h1>
 	<Container fluid id="section1" style={{marginTop: "95px", marginBottom: "75px"}}>
 			  		  	<Row>
 			  		  		<Col style={{height: "500px"}} className="d-flex justify-content-evenly align-items-center">
@@ -70,7 +64,7 @@ const Home = () => {
 			  
 			                 	
 			                 	<Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
-			  				<h3>{personalSummaryOne}</h3>
+			  				<p>{personalSummaryOne}</p>
 
 			  		  	</Col>
 			  		  	
@@ -90,9 +84,6 @@ const Home = () => {
 			  </Container>
 			                        <Container fluid id="section3" style={{marginTop: "75px"}}>
 			  			<Row>
-			  				<Col>
-			  					<h3>Fill out the contact form and we will get back to you as soon as possible!</h3>
-			  				</Col>
 			  				<Col>
 			  <Contact/>
 			  				</Col>
