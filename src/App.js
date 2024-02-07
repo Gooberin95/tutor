@@ -1,4 +1,3 @@
-import './App.css';
 import Home from './Home';
 import Hero from './Hero';
 import Footer from './Footer'

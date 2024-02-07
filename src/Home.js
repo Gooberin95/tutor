@@ -10,6 +10,7 @@ import Orange from './Orange';
 
 
 const Home = () => {
+	         
 
 		const parallaxStyleTwo = {
 					      backgroundColor: ' #FFCC99',	
