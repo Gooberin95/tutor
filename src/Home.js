@@ -15,23 +15,25 @@ const Home = () => {
 
 		const parallaxStyleTwo = {
 					      backgroundColor: ' #FFCC99',	
-					      minHeight: '10px',
+					      minHeight: '25px',
 					      backgroundAttachment: 'fixed',
 					      backgroundPosition: 'center',
 					      backgroundRepeat: 'no-repeat',
 					      backgroundSize: 'cover',
-					      border: "solid #FFCC99"
+						border: "solid #ffb366"
 					    };
 
 			 const parallaxStyleThree = {
 				 			backgroundColor: "#FFCC99",	
-				 		      minHeight: '10px',
+				 		      minHeight: '25px',
 				 		      backgroundAttachment: 'fixed',
 				 		      backgroundPosition: 'center',
 				 		      backgroundRepeat: 'no-repeat',
 				 		      backgroundSize: 'cover',                         
 				 		marginTop: "200px",
-				 		border: "solid #FFCC99"
+				 		border: "solid #ffb366",
+				 		borderRadius: "10px"
+
 				
 				 		    };
 
