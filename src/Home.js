@@ -44,10 +44,13 @@ const Home = () => {
 			  <h1 style={{textDecoration: 'underline', paddingLeft: "35%",fontFamily:"Lucidia Handwriting",  color: "black",marginTop:"75px",paddingBottom: "200px"}}>Featured in Seattle Homes Magazine</h1>
 			      <Container  id="section2" fluid style={{marginTop: "75px", marginBottom: "75px",height: "800px"}}>
 			  		  	<Row>
-			  		  	<Col className="d-flex justify-content-center align-items-center" >
-			  		  		<Col style={{marginLeft: "50px"}}>
-			  		  	       <p style={{borderRadius: "10px",width: "75%"}}>{personalSummaryTwo}</p>
-			  		  </Col> 
+							  		  	<Col className="d-flex justify-content-center align-items-center" >
+			                 	  		<Col style={{height: "500px"}} className="d-flex justify-content-evenly align-items-center">
+			                                         
+			  		  	       <Image src={mavisMagazine} style={{borderRadius: "10px", width: "75%",height: "800px"}}/>
+			  		  </Col>
+			  
+ 
 			  		  <Col style={{height:"500px"}} className="d-flex justify-content-evenly align-items-center">
 			  				<Image src={guyMagazine} style={{borderRadius: "10px",width: "75%"}}/>
 			  		  	</Col>
@@ -59,9 +62,8 @@ const Home = () => {
 			   <h1 style={{textDecoration: 'underline', paddingLeft: "1300px",marginTop:"75px",fontFamily: "Lucidia Handwriting"}}>About</h1>
 	<Container fluid id="section1" style={{marginTop: "95px", marginBottom: "75px"}}>
 			  		  	<Row>
+
 			  		  		<Col style={{height: "500px"}} className="d-flex justify-content-evenly align-items-center">
-			                                         
-			  		  	       <Image src={mavisMagazine} style={{borderRadius: "10px", width: "75%",height: "800px"}}/>
 			  		  </Col>
 			  
 			                 	

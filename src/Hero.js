@@ -57,7 +57,7 @@ return (
 <div style={containerStyle}>
 	      <div style={backgroundImageStyle}></div>
 	      <div style={overlayTextStyle}>
-	               <FontAwesomeIcon icon={faCalendarDays} size="lg" style={{ color: "#FFD43B" }} />  
+	               <FontAwesomeIcon icon={faCalendarDays} size="lg" style={{ color: "#FFCC99" }} />  
 	        <h1 style={{ ...headingStyle, opacity: fadeIn ? 1 : 0 }}>
 
 	          Event planning and Fashion Consulting
